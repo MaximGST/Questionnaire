@@ -25,14 +25,30 @@ pip install -r requirements.txt
 python manage.py makemigrations
 
 python manage.py migrate
+
+
 Создание суперпользователя
+
 python manage.py createsuperuser
-Будут выведены следующие выходные данные. Введите требуемое имя пользователя, электронную почту и пароль: по умолчанию почта speccy.rom@yandex.ru пароль: 123456
+
+Будут выведены следующие выходные данные. 
+
+Введите требуемое имя пользователя, 
+
+электронную почту и пароль: 
+
+по умолчанию почта speccy.rom@yandex.ru пароль: 123456
 
 Username (leave blank to use 'admin'): admin
+
 Email address: admin@admin.com
+
 Password: ********
+
 Password (again): ********
+
 Superuser created successfully.
+
 Команда для запуска приложения
+
 python manage.py runserver
