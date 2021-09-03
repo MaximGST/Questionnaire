@@ -16,9 +16,14 @@ cd Questionnaire
 Установить зависимости из файла requirements.txt:
 
 pip install -r requirements.txt
+
 Выполнить следующие команды:
+
+
 Команда для создания миграций приложения для базы данных
+
 python manage.py makemigrations
+
 python manage.py migrate
 Создание суперпользователя
 python manage.py createsuperuser
